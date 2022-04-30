@@ -7,7 +7,7 @@ body{
 .block{
     height: 500px;
     width: 500px;
-    margin-left: 45%;
+    margin-left: 30%;
     margin-top: 60px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
@@ -22,14 +22,14 @@ img{
 }
 button{
     color: hsl(25, 97%, 53%);
-    background-color: hsl(216, 12%, 54%);
-    margin-left: 90px;
+    background-color: hsl(213, 19%, 23%);
+    margin-left: 50px;
     margin-bottom:0px;
     border-radius: 30px;
     font-size: 20px;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 30px 10px 30px;
     border: 0px;
-    width: 100%;
+    width: 80%;
 }
 h2{
     color: hsl(0, 0%, 100%);

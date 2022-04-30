@@ -8,7 +8,7 @@ body{
 .block{
     height: 500px;
     width: 500px;
-    margin-left: 600px;
+    margin-left: 30%;
     margin-top: 60px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
@@ -16,7 +16,7 @@ body{
 .star{
     margin: 30px;
     border: 1px;
-    background-color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 23%);
     border-radius: 30px;
     height: 20px;
     padding: 20px;
@@ -34,13 +34,16 @@ p{
     font-weight: 400;
 }
 .buttons{
-    margin-left: 30px;
+    margin-left: 20px;
+    width: 100%;
 }
 button{
-    margin: 12px;
-    background-color:  hsl(216, 12%, 54%);
-    padding: 20px 25px 20px 25px;
+    margin: 10px;
+    background-color:  hsl(213, 19%, 23%);
+    padding: 25px 30px 25px 30px;
     border-radius: 100px;
+    border: none;
+    
     font-size: 18px;
     color: hsl(0, 0%, 100%);
     
@@ -68,4 +71,78 @@ button:before{
 .buttons-final:hover{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
+}
+@media all and (max-width: 786px){
+    
+*{
+    font-family: Overpass;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.block{
+    height: 300px;
+    width: 300px;
+    margin-left: 4%;
+    margin-top: 60px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+}
+.star{
+    margin: 15px;
+    border: 1px;
+    background-color: hsl(213, 19%, 23%);
+    border-radius: 30px;
+    height: 10px;
+    padding: 10px;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+p{
+    color: hsl(216, 12%, 54%);
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.buttons{
+    margin-left: 3px;
+}
+button{
+    margin: 8px;
+    background-color:  hsl(213, 19%, 23%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    
+}
+button:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+button:before{
+    background-color: hsl(217, 12%, 63%);
+}
+.buttons-final{
+    margin-left: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    margin-bottom: 300px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 100%);
+}
+.buttons-final:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
 }
